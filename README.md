@@ -1,2 +1,2 @@
-# [mullazeeshan.github.io](mullazeeshan.github.io)
+# [mullazeeshan.github.io](http://mullazeeshan.github.io)
 Personal website.
