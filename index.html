@@ -226,6 +226,27 @@ function myFunction() {
             <li>
                     <h4>Business Development Analyst<br> </h4>
                    
+		    <button onclick="showContent()">know more</button>
+
+			<template>
+			  <h2>ABOUT</h2>
+				<p> 		*Conducted training internship workshop for RC engine cars, drone modelling, assembly.
+						*Involved in website development, implementation of company’s site ‘ezenith.in’ Lang- html, java,javascript.
+						*Identify prospective Institutions and effectively convince them to hoist our various programs. 
+						*Communicate with client to understand the planning of projects and provide them progress reports of each modules.
+						*Maintain CRM and increase database of prospects. Admin and back office work. 
+						*Develop PAN India, online-offline Market of various other business groups. Assisting new intern’s recruitment
+				</p>
+		    	</template>
+
+			<script>
+			function showContent() {
+			  var temp = document.getElementsByTagName("template")[0];
+			  var clon = temp.content.cloneNode(true);
+			  document.body.appendChild(clon);
+			}
+			</script>
+		    
                     <b>Company</b> Ezenith Education LLP<br>
                     <b>Duration</b> Jul 2017 to Dec 2019<br>
                     <b>Location</b> - Navi Mumbai, MH, India<br>
